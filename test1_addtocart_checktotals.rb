@@ -80,7 +80,7 @@ describe "Adding item to cart" do
 expect(driver.find_element(xpath:  "//span[@data-checkout-subtotal-price-target='41000']"))
 puts ">>> PASS: Subtotal Test (actual subtotal matches expected subtotal)"
 
-    # Asserts correct subtotal
+    # Asserts correct total
 expect(driver.find_element(xpath:  "//span[@data-checkout-payment-due-target='41000']"))
 puts ">>> PASS: Total Test (actual total matches expected total)"
 
